@@ -1,0 +1,92 @@
+h1 {
+  color:Tomato;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+  color: black;
+  size:10;
+} 
+ 
+ * {
+            box-sizing: border-box;
+        }
+
+             table {
+            max-width: auto;
+            margin: auto;
+        }
+
+        table, th, td {
+            border: outset;
+			border-style: solid;
+            border-collapse: collapse;
+            overflow-x: auto;
+			border-color: black;
+        }
+
+        th {
+            padding: 5px;
+            text-align: center;
+			text-color:black;
+        }
+
+        td {
+            padding: 5px;
+            text-align: center;
+			color:black;
+        }
+
+        table#t01 tr:nth-child(even) {
+            background-color: #C6DEFF;
+			color:black;
+        }
+
+        table#t01 tr:nth-child(odd) {
+            background-color: #AFDCEC;
+        }
+
+        table#t01 th {
+            background-color:#737CA1;
+            color: white;
+			text-align:center;
+        }
+		
+		  /* The navbar */
+        .topnav {
+            overflow: hidden;
+            background-color: #614051;
+        }
+
+            /* Navbar links */
+            .topnav a {
+                float: center-right	
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .topnav a.active {
+                    background-color: #5E5A80;
+                    color: white;
+             }
+    body{ 
+	
+	background-image:url('E:/USF/ISM6255/project/images/5.jpg');
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;	
+text-color:black;  
+	}  
